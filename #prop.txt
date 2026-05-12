@@ -1,0 +1,35 @@
+find / -name "build.prop" 2>/dev/null
+
+
+/odm/etc/build.prop                 »  N960F.build.odm.etc.prop
+/odm/build.prop                     »  N960F.build.odm.prop
+/system/product/build.prop          »  N960F.build.system.product.prop
+/system/build.prop                  »  N960F.build.system.prop
+/vendor/odm/etc/build.prop          »  N960F.build.vendor.odm.etc.prop
+/vendor/build.prop                  »  N960F.build.vendor.prop
+
+
+cp "/odm/etc/build.prop" "/sdcard/N960F.build.odm.etc.prop"
+cp "/odm/build.prop" "/sdcard/N960F.build.odm.prop"
+cp "/system/product/build.prop" "/sdcard/N960F.build.system.product.prop"
+cp "/system/build.prop" "/sdcard/N960F.build.system.prop"
+cp "/vendor/odm/etc/build.prop" "/sdcard/N960F.build.vendor.odm.etc.prop"
+cp "/vendor/build.prop" "/sdcard/N960F.build.vendor.prop"
+
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > "/sdcard/#N960F.prop.txt"
+for /f "tokens=*" %i in ('adb shell "find /sdcard/ -name '*.prop' && echo /sdcard/#N960F.prop.txt"') do adb pull "%i" >nul 2>&1
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+
+mv -f "/sdcard/N960F.build.odm.etc.prop" "/odm/etc/build.prop"
+mv -f "/sdcard/N960F.build.odm.prop" "/odm/build.prop"
+mv -f "/sdcard/N960F.build.system.product.etc.prop" "/system/product/build.prop"
+mv -f "/sdcard/N960F.build.system.prop" "/system/build.prop"
+mv -f "/sdcard/N960F.build.vendor.odm.etc.prop" "/vendor/odm/etc/build.prop"
+mv -f "/sdcard/N960F.build.vendor.prop" "/vendor/build.prop"
+
+
+chmod "0600" "/odm/etc/build.prop" "/odm/build.prop" "/system/product/build.prop" "/system/build.prop" "/vendor/odm/etc/build.prop" "/vendor/build.prop"
