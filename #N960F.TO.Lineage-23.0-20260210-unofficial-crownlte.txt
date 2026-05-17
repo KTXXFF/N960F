@@ -1,0 +1,336 @@
+N960F >> Lineage-23.0-20260210-unofficial-crownlte
+========================================================================================================================
+
+build.odm.etc.prop >> 
+
+========================================================================================================================
+
+ro.product.odm.brand=samsung
+ro.product.odm.device=crownlte
+ro.product.odm.manufacturer=samsung
+ro.product.odm.model=SM-N960F
+ro.product.odm.name=lineage_crownlte
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.odm.build.date.utc=1770752984
+ro.odm.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.odm.build.id=BP2A.250805.005
+ro.odm.build.tags=release-keys
+ro.odm.build.type=userdebug
+替代為
+ro.product.odm.brand=samsung
+ro.product.odm.device=crownlte
+ro.product.odm.manufacturer=samsung
+ro.product.odm.model=SM-N960F
+ro.product.odm.name=crownltexx
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.odm.build.date.utc=1770752984
+ro.odm.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.odm.build.id=QP1A.190711.020
+ro.odm.build.tags=release-keys
+ro.odm.build.type=user
+
+========================================================================================================================
+
+build.system.product.etc.prop >> 
+
+========================================================================================================================
+
+ro.product.product.brand=samsung
+ro.product.product.device=crownlte
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-N960F
+ro.product.product.name=lineage_crownlte
+ro.product.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.product.build.date.utc=1770752984
+ro.product.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.product.build.id=BP2A.250805.005
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+替代為
+ro.product.product.brand=samsung
+ro.product.product.device=crownlte
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-N960F
+ro.product.product.name=crownltexx
+ro.product.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.product.build.date.utc=1770752984
+ro.product.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.product.build.id=QP1A.190711.020
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+
+========================================================================================================================
+
+build.system.prop >> 
+
+========================================================================================================================
+
+ro.product.system.brand=samsung
+ro.product.system.device=crownlte
+ro.product.system.manufacturer=samsung
+ro.product.system.model=SM-N960F
+ro.product.system.name=lineage_crownlte
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system.build.date.utc=1770752984
+ro.system.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.system.build.id=BP2A.250805.005
+ro.system.build.tags=release-keys
+ro.system.build.type=userdebug
+替代為
+ro.product.system.brand=samsung
+ro.product.system.device=crownlte
+ro.product.system.manufacturer=samsung
+ro.product.system.model=SM-N960F
+ro.product.system.name=crownltexx
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system.build.date.utc=1770752984
+ro.system.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.system.build.id=QP1A.190711.020
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+
+========================================================================================================================
+
+ro.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.build.id=BP2A.250805.005
+ro.build.display.id=BP2A.250805.005 release-keys
+ro.build.version.incremental=1770752984
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.0
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-02-01
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.build.date.utc=1770752984
+ro.build.type=userdebug
+ro.build.user=krazey
+ro.build.host=meme
+ro.build.tags=release-keys
+ro.build.flavor=lineage_crownlte-userdebug
+替代為
+ro.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.build.id=QP1A.190711.020
+ro.build.display.id=QP1A.190711.020 release-keys
+ro.build.version.incremental=1770752984
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.0
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-02-01
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.build.date.utc=1770752984
+ro.build.type=user
+ro.build.user=dpi
+ro.build.host=SWDH4609
+ro.build.tags=release-keys
+ro.build.flavor=crownltexx-user
+
+========================================================================================================================
+
+ro.build.description=lineage_crownlte-userdebug 16 BP2A.250805.005 eng.krazey release-keys
+替代為
+ro.build.description=crownltexx-user 10 QP1A.190711.020 N960FXXU9FVG2 release-keys
+
+========================================================================================================================
+
+========================================================================================================================
+
+build.system.system_dlkm.etc.prop >>
+
+========================================================================================================================
+
+ro.product.system_dlkm.brand=samsung
+ro.product.system_dlkm.device=crownlte
+ro.product.system_dlkm.manufacturer=samsung
+ro.product.system_dlkm.model=SM-N960F
+ro.product.system_dlkm.name=lineage_crownlte
+ro.system_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system_dlkm.build.date.utc=1770752984
+ro.system_dlkm.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.system_dlkm.build.id=BP2A.250805.005
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=userdebug
+替代為
+ro.product.system_dlkm.brand=samsung
+ro.product.system_dlkm.device=crownlte
+ro.product.system_dlkm.manufacturer=samsung
+ro.product.system_dlkm.model=SM-N960F
+ro.product.system_dlkm.name=crownltexx
+ro.system_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system_dlkm.build.date.utc=1770752984
+ro.system_dlkm.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.system_dlkm.build.id=QP1A.190711.020
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+
+========================================================================================================================
+
+build.system.system_ext.etc.prop >>
+
+========================================================================================================================
+
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=crownlte
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-N960F
+ro.product.system_ext.name=lineage_crownlte
+ro.system_ext.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system_ext.build.date.utc=1770752984
+ro.system_ext.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.system_ext.build.id=BP2A.250805.005
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=userdebug
+替代為
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=crownlte
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-N960F
+ro.product.system_ext.name=crownltexx
+ro.system_ext.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.system_ext.build.date.utc=1770752984
+ro.system_ext.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.system_ext.build.id=QP1A.190711.020
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+
+========================================================================================================================
+
+build.vendor.odm_dlkm.etc.prop >>
+
+========================================================================================================================
+
+ro.product.odm_dlkm.brand=samsung
+ro.product.odm_dlkm.device=crownlte
+ro.product.odm_dlkm.manufacturer=samsung
+ro.product.odm_dlkm.model=SM-N960F
+ro.product.odm_dlkm.name=lineage_crownlte
+ro.odm_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.odm_dlkm.build.date.utc=1770752984
+ro.odm_dlkm.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.odm_dlkm.build.id=BP2A.250805.005
+ro.odm_dlkm.build.tags=release-keys
+ro.odm_dlkm.build.type=userdebug
+替代為
+ro.product.odm_dlkm.brand=samsung
+ro.product.odm_dlkm.device=crownlte
+ro.product.odm_dlkm.manufacturer=samsung
+ro.product.odm_dlkm.model=SM-N960F
+ro.product.odm_dlkm.name=crownltexx
+ro.odm_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.odm_dlkm.build.date.utc=1770752984
+ro.odm_dlkm.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.odm_dlkm.build.id=QP1A.190711.020
+ro.odm_dlkm.build.tags=release-keys
+ro.odm_dlkm.build.type=user
+
+========================================================================================================================
+
+build.vendor.prop >>
+
+========================================================================================================================
+
+ro.product.vendor.brand=samsung
+ro.product.vendor.device=crownlte
+ro.product.vendor.manufacturer=samsung
+ro.product.vendor.model=SM-N960F
+ro.product.vendor.name=lineage_crownlte
+ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.vendor.build.date.utc=1770752984
+ro.vendor.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.vendor.build.id=BP2A.250805.005
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=userdebug
+替代為
+ro.product.vendor.brand=samsung
+ro.product.vendor.device=crownlte
+ro.product.vendor.manufacturer=samsung
+ro.product.vendor.model=SM-N960F
+ro.product.vendor.name=crownltexx
+ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.vendor.build.date.utc=1770752984
+ro.vendor.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.vendor.build.id=QP1A.190711.020
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=user
+
+========================================================================================================================
+
+build.vendor.vendor_dlkm.etc.prop >>
+
+========================================================================================================================
+
+ro.product.vendor_dlkm.brand=samsung
+ro.product.vendor_dlkm.device=crownlte
+ro.product.vendor_dlkm.manufacturer=samsung
+ro.product.vendor_dlkm.model=SM-N960F
+ro.product.vendor_dlkm.name=lineage_crownlte
+ro.vendor_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.vendor_dlkm.build.date.utc=1770752984
+ro.vendor_dlkm.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP2A.250805.005/eng.krazey:userdebug/release-keys
+ro.vendor_dlkm.build.id=BP2A.250805.005
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=userdebug
+替代為
+ro.product.vendor_dlkm.brand=samsung
+ro.product.vendor_dlkm.device=crownlte
+ro.product.vendor_dlkm.manufacturer=samsung
+ro.product.vendor_dlkm.model=SM-N960F
+ro.product.vendor_dlkm.name=crownltexx
+ro.vendor_dlkm.build.date=Tue Feb 10 20:49:44 CET 2026
+ro.vendor_dlkm.build.date.utc=1770752984
+ro.vendor_dlkm.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys
+ro.vendor_dlkm.build.id=QP1A.190711.020
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+
+========================================================================================================================
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+mv -f "/sdcard/build.odm.etc.prop" "/odm/etc/build.prop"
+mv -f "/sdcard/build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/build.system.prop" "/system/build.prop"
+mv -f "/sdcard/build.system.system_dlkm.etc.prop" "/system/system_dlkm/etc/build.prop"
+mv -f "/sdcard/build.system.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/build.vendor.odm_dlkm.etc.prop" "/vendor/odm_dlkm/etc/build.prop"
+mv -f "/sdcard/build.vendor.prop" "/vendor/build.prop"
+mv -f "/sdcard/build.vendor.vendor_dlkm.etc.prop" "/vendor/vendor_dlkm/etc/build.prop"
+
+chmod "0600" "/odm/etc/build.prop" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_dlkm/etc/build.prop" "/system/system_ext/etc/build.prop" "/vendor/odm_dlkm/etc/build.prop" "/vendor/build.prop" "/vendor/vendor_dlkm/etc/build.prop"
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > /sdcard/#N960F.LOS23.0.EDIT.prop.txt
