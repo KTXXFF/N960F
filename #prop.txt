@@ -1,0 +1,109 @@
+Lineage-23.2-20260503-unofficial-crownlte - Origin
+Lineage-23.2-20260506-unofficial-crownlte - Origin
+Lineage-23.2-20260514-unofficial-crownlte - Origin
+Lineage-23.2-20260517-unofficial-crownlte - Origin
+Lineage-23.2-20260518-unofficial-crownlte - Origin
+Lineage-23.2-20260523-unofficial-crownlte - Origin
+Lineage-23.2-20260527-unofficial-crownlte - Origin
+Lineage-23.2-20260531-unofficial-crownlte - Origin
+Lineage-23.2-20260603-unofficial-crownlte - Origin
+Lineage-23.2-20260607-unofficial-crownlte - Origin
+Lineage-23.2-20260614-unofficial-crownlte - Origin
+
+
+find / -name "build.prop" 2>/dev/null
+
+
+/odm/etc/build.prop                 »  N960F.LOS23.2.Origin.build.odm.etc.prop
+/system/product/etc/build.prop      »  N960F.LOS23.2.Origin.build.system.product.etc.prop
+/system/build.prop                  »  N960F.LOS23.2.Origin.build.system.prop
+/system/system_dlkm/etc/build.prop  »  N960F.LOS23.2.Origin.build.system.system_dlkm.etc.prop
+/system/system_ext/etc/build.prop   »  N960F.LOS23.2.Origin.build.system.system_ext.etc.prop
+/vendor/odm_dlkm/etc/build.prop     »  N960F.LOS23.2.Origin.build.vendor.odm_dlkm.etc.prop"
+/vendor/build.prop                  »  N960F.LOS23.2.Origin.build.vendor.prop
+/vendor/vendor_dlkm/etc/build.prop  »  N960F.LOS23.2.Origin.build.vendor.vendor_dlkm.etc.prop
+
+
+cp "/odm/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.odm.etc.prop"
+cp "/system/product/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.system.product.etc.prop"
+cp "/system/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.system.prop"
+cp "/system/system_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.system.system_dlkm.etc.prop"
+cp "/system/system_ext/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.system.system_ext.etc.prop"
+cp "/vendor/odm_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.vendor.odm_dlkm.etc.prop"
+cp "/vendor/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.vendor.prop"
+cp "/vendor/vendor_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.Origin.build.vendor.vendor_dlkm.etc.prop"
+
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > "/sdcard/#N960F.LOS.23.2.Origin.prop.txt"
+for /f "tokens=*" %i in ('adb shell "find /sdcard/ -name '*.prop' && echo /sdcard/#N960F.LOS.23.2.Origin.prop.txt"') do adb pull "%i" >nul 2>&1
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.odm.etc.prop" "/odm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.system.prop" "/system/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.system.system_dlkm.etc.prop" "/system/system_dlkm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.system.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.vendor.odm_dlkm.etc.prop" "/vendor/odm_dlkm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.vendor.prop" "/vendor/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.Origin.build.vendor.vendor_dlkm.etc.prop" "/vendor/vendor_dlkm/etc/build.prop"
+
+
+chmod "0600" "/odm/etc/build.prop" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_dlkm/etc/build.prop" "/system/system_ext/etc/build.prop" "/vendor/odm_dlkm/etc/build.prop" "/vendor/build.prop" "/vendor/vendor_dlkm/etc/build.prop"
+
+
+Lineage-23.2-20260503-unofficial-crownlte - EDIT
+Lineage-23.2-20260506-unofficial-crownlte - EDIT
+Lineage-23.2-20260514-unofficial-crownlte - EDIT
+Lineage-23.2-20260517-unofficial-crownlte - EDIT
+Lineage-23.2-20260518-unofficial-crownlte - EDIT
+Lineage-23.2-20260523-unofficial-crownlte - EDIT
+Lineage-23.2-20260527-unofficial-crownlte - EDIT
+Lineage-23.2-20260531-unofficial-crownlte - EDIT
+Lineage-23.2-20260603-unofficial-crownlte - EDIT
+Lineage-23.2-20260607-unofficial-crownlte - EDIT
+Lineage-23.2-20260614-unofficial-crownlte - EDIT
+
+find / -name "build.prop" 2>/dev/null
+
+
+/odm/etc/build.prop                 »  N960F.LOS23.2.EDIT.build.odm.etc.prop
+/system/product/etc/build.prop      »  N960F.LOS23.2.EDIT.build.system.product.etc.prop
+/system/build.prop                  »  N960F.LOS23.2.EDIT.build.system.prop
+/system/system_dlkm/etc/build.prop  »  N960F.LOS23.2.EDIT.build.system.system_dlkm.etc.prop
+/system/system_ext/etc/build.prop   »  N960F.LOS23.2.EDIT.build.system.system_ext.etc.prop
+/vendor/odm_dlkm/etc/build.prop     »  N960F.LOS23.2.EDIT.build.vendor.odm_dlkm.etc.prop
+/vendor/build.prop                  »  N960F.LOS23.2.EDIT.build.vendor.prop
+/vendor/vendor_dlkm/etc/build.prop  »  N960F.LOS23.2.EDIT.build.vendor.vendor_dlkm.etc.prop
+
+
+cp "/odm/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.odm.etc.prop"
+cp "/system/product/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.system.product.etc.prop"
+cp "/system/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.system.prop"
+cp "/system/system_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.system.system_dlkm.etc.prop"
+cp "/system/system_ext/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.system.system_ext.etc.prop"
+cp "/vendor/odm_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.vendor.odm_dlkm.etc.prop"
+cp "/vendor/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.vendor.prop"
+cp "/vendor/vendor_dlkm/etc/build.prop" "/sdcard/N960F.LOS23.2.EDIT.build.vendor.vendor_dlkm.etc.prop"
+
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > "/sdcard/#N960F.LOS.23.2.EDIT.prop.txt"
+for /f "tokens=*" %i in ('adb shell "find /sdcard/ -name '*.prop' && echo /sdcard/#N960F.LOS.23.2.EDIT.prop.txt"') do adb pull "%i" >nul 2>&1
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.odm.etc.prop" "/odm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.system.prop" "/system/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.system.system_dlkm.etc.prop" "/system/system_dlkm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.system.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.vendor.odm_dlkm.etc.prop" "/vendor/odm_dlkm/etc/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.vendor.prop" "/vendor/build.prop"
+mv -f "/sdcard/N960F.LOS23.2.EDIT.build.vendor.vendor_dlkm.etc.prop" "/vendor/vendor_dlkm/etc/build.prop"
+
+
+chmod "0600" "/odm/etc/build.prop" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_dlkm/etc/build.prop" "/system/system_ext/etc/build.prop" "/vendor/odm_dlkm/etc/build.prop" "/vendor/build.prop" "/vendor/vendor_dlkm/etc/build.prop"

@@ -1,0 +1,21 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=samsung
+ro.product.system_dlkm.device=crownlte
+ro.product.system_dlkm.manufacturer=samsung
+ro.product.system_dlkm.model=SM-N960F
+ro.product.system_dlkm.name=lineage_crownlte
+ro.system_dlkm.build.date=Wed May 27 21:59:53 CEST 2026
+ro.system_dlkm.build.date.utc=1779911993
+ro.system_dlkm.build.fingerprint=samsung/lineage_crownlte/crownlte:16/BP4A.251205.006/eng.krazey:userdebug/release-keys
+ro.system_dlkm.build.id=BP4A.251205.006
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=userdebug
+ro.system_dlkm.build.version.incremental=1779911993
+ro.system_dlkm.build.version.release=16
+ro.system_dlkm.build.version.release_or_codename=16
+ro.system_dlkm.build.version.sdk=36
+ro.system_dlkm.build.version.sdk_full=36.1
+# end of file
